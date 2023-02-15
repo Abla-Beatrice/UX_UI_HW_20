@@ -1,0 +1,144 @@
+
+body {
+    font-family:'Karma';
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    row-gap: 0;
+}
+  header {
+    padding: 10px 40px;
+    background-color: #A66D58;
+    align-items: center;
+}
+  header h1 {
+    color: #F2EFC4;
+    grid-column: span 6;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -.03rem;
+  }
+  header nav{
+    grid-column: span 6;
+    justify-self: end;
+    float: left;
+    
+  }
+  header nav a{
+    color: #F2EFC4;
+    margin-left: 40px;
+    text-decoration: none;
+} 
+
+  /* Navigation */
+nav a:hover{
+    color:#F2AD94;
+}
+nav a:active {
+    color: #212429;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("desktop.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: #F2AD94;;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.imgProfit {
+    grid-area: imgProfit;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+    padding-top: 1px;
+    grid-column: 1 / span 3;
+  }
+.imgSolvent {
+    grid-area: imgSolvent;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+    padding-top: 1px;
+    grid-column: 1 / span 3;       
+  }
+.footer {
+  padding: 10px 40px;
+  background-color:#A66D58;
+  align-items: center;
+  font-size: 14px;
+  
+}
+footer a {
+  color: #F2EFC4;
+  margin-left: 40px;
+  text-decoration: none;
+}
+footer a:hover {
+      color:#F2AD94;
+}      
+footer a:active {
+      color: #F2AD94;
+}
