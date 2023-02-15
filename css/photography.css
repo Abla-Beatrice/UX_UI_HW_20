@@ -3,73 +3,8 @@ body {
     font-family: roboto;
     color: #212429
   }
-  .grid{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    row-gap: 0;
-  }
-  header {
-    padding: 10px 40px;
-    background: #E8E4D7;
-    align-items: center;
-  }
-  header h1 {
-    grid-column: span 6;
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: -.03rem;
-  }
-  header nav{
-    grid-column: span 6;
-    justify-self: end;
-  }
-  header nav a{
-    color: #333;
-    margin-left: 40px;
-    text-decoration: none;
-  }
-      
-  /* Navigation */
-  nav a:hover{
-    color:#D91E41;
-    }
-  nav a:active {
-    color: #212429;
-     }
-  .heroImg {
-    background-color: #D91E41;
-    padding: 100px 15px;
-  }
-  .content {
-      max-width: 300px;
-      margin: 0 auto;
-      padding: 100px;
-      background-color: #FFFFFF;
-      text-align: center;
-  }
-  button {
-      padding: 15px;
-      background-color: #0c0c0c;
-      color: rgb(245, 236, 236);
-      font-size: 15px;
-      border-radius: 6px;
-  }
-  .footer {
-    padding: 10px 40px;
-    background-color: #E8E4D7;
-    align-items: center;
-    font-size: 14px;
-    color: #8C503A;
-  }
-  footer a {
-    color: #0b0b0a;
-    margin-left: 40px;
-    text-decoration: none;
-  }
-  footer a:hover {
-        color:#D91E41;
-  }      
-  footer a:active {
-        color:#D91E41;
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
   }
   
